@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #000;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Text */
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Header & Navigation */
+
+header {
+  padding: 20px 50px;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #b2dfdb;
+}
+
+.hero-image {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(/img/bgImage.jpg);
+  background-size: cover;
+}
+
+.logo {
+  width: 60%;
+}
+
+/* Services */
+
+.services {
+  text-align: center;
+}
+
+/* Testimonials */
+
+.testimonials {
+  text-align: center;
+  padding: 125px;
+  background-color: #e5e7eb;
+}
+
+.testimonials p {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+/* Contact */
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  align-content: center;
+  height: 7vh;
+}
+
+footer.flex {
+  justify-content: center;
+}
